@@ -9,8 +9,8 @@ A demo for power analysis against unmasked tiny-AES running on an ARM M3 process
 ## Requirements
 Python3 + numpy + scipy.stats + matplotlib
 ## Directory organisation
-Acquisition/: files for trace acquistion with picoscope 2000 series
-TinyAES: Tiny-AES fitted to the SCALE boards' setup
-AESAttack.py: python3 script for running the demo
-TRSReader.py: TRS reading library for AESAttack.py
-README.md: This file
+- Acquisition/: files for trace acquistion with picoscope 2000 series
+- TinyAES: Tiny-AES fitted to the SCALE boards' setup
+- AESAttack.py: python3 script for running the demo
+- TRSReader.py: TRS reading library for AESAttack.py
+- README.md: This file
