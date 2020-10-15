@@ -14,3 +14,11 @@ Python3 + numpy + scipy.stats + matplotlib
 - AESAttack.py: python3 script for running the demo
 - TRSReader.py: TRS reading library for AESAttack.py
 - README.md: This file
+
+## Combine of acquisition and attack
+- Need sudo on linux
+- Need picoscope (software; not SDK) installed
+- python library pyserial + (time, random, secrets) 
+- Acquisition setup: channel B 2V trigger/5V range, repeat posedge 10%, 100us/div;
+                     channel A 1V range
+- Once a while, the program will run 50 encryptions, whereas the scope shows the traces
